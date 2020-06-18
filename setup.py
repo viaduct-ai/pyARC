@@ -9,7 +9,8 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setup(
   name = 'pyarc',
-  packages = ['pyarc', "pyarc.data_structures", "pyarc.algorithms", "pyarc.qcba", "pyarc.utils"],
+  packages = ['pyarc', "pyarc.data_structures", "pyarc.algorithms", "pyarc.qcba", "pyarc.utils", "pyarc.qcba.data_structures",
+      "pyarc.qcba.transforms"],
   version = '1.0.23',
   description = 'An implementation of CBA algorithm',
   author = 'Jiří Filip',
